@@ -1,0 +1,108 @@
+html {
+  font-size: 62.5%;
+}
+
+.slider-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.slider-container .slider-box {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 0.5 ease-in-out;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+.slider-container .slider-box.ativo {
+  opacity: 1;
+}
+
+.slider-container .slider-box.box-rosa {
+  background-image: url(../assets/images/slider1.png);
+}
+
+.slider-container .slider-box.box-amarelo {
+  background-image: url(../assets/images/slider2.png);
+}
+
+.slider-container .slider-box.box-verde {
+  background-image: url(../assets/images/slider3.png);
+}
+
+.slider-container .slider-box.box-azul {
+  background-image: url(../assets/images/slider4.jpg);
+}
+
+.seta-voltar,
+.seta-avancar {
+  position: absolute;
+  z-index: 1;
+}
+
+.seta-voltar {
+  left: 4%;
+  top: 50%;
+}
+
+.seta-avancar {
+  right: 4%;
+  top: 50%;
+}
+
+.seta-voltar.opacidade,
+.seta-avancar.opacidade {
+  opacity: 0.6;
+  cursor: default;
+}
+
+.text-slider {
+  color: rgb(255, 255, 255);
+  margin-left: 18rem;
+  padding: 6rem 5rem;
+  width: 62rem;
+  border-radius: 1rem;
+}
+
+.slider-container .slider-box .text-slider .titulo {
+  margin-bottom: 5rem;
+  font-size: 5rem;
+  font-weight: 400;
+  line-height: 4.5rem;
+}
+
+.slider-container .slider-box .text-slider .sobre {
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin-bottom: 5rem;
+}
+
+.slider-container .slider-box .text-slider .botao {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.slider-container .slider-box .text-slider .botao.rosa a {
+  color: rgb(232, 16, 181);
+}
+
+.slider-container .slider-box .text-slider .botao.amarelo a {
+  color: rgb(255, 255, 0);
+}
+
+.slider-container .slider-box .text-slider .botao.verde a {
+  color: rgb(4, 115, 4);
+}
+
+.slider-container .slider-box .text-slider .botao.azul a {
+  color: rgb(6, 180, 180);
+}
+
