@@ -70,7 +70,6 @@ double-click index.html
 
 ## 🤯 Desafios que enfrentei
 
-O FAQ em é simples porém, por ser minha primeira aplicação de um efeito **accordion** foi um pouco dificil estruturar o forEach. Eu sabia que tinha que percorrer todo o FAQ buscando as classes setadas no **HTML** e **CSS**. Mas consultei minhas anotações e as documentações e relembrei a base da syntax e na prática consegui consolidar e entender um pouco mais esse método, com certeza será mais facilmente implementado em projetos posteriores.
 
 ---
 
