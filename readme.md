@@ -68,11 +68,6 @@ double-click index.html
 
 ---
 
-## 🤯 Desafios que enfrentei
-
-
----
-
 ## 📄 Licença
 
 Este projeto é de código aberto e está licenciado sob a licença **[MIT](https://opensource.org/license/mit)**.
