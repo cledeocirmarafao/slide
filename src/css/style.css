@@ -20,6 +20,7 @@ html {
   width: 100%;
   height: 100%;
   opacity: 0;
+  overflow: hidden;
 }
 
 .slider-container .slider-box.ativo {
